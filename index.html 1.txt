@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sunray Motors Spare Part Shop</title>
+<style>
+    /* Reset and base */
+    * {
+        box-sizing: border-box;
+        margin: 0; padding: 0;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        background: #f7f9fc;
+        color: #333;
+    }
+    a {
+        color: #0077cc;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    header {
+        background-color: #004d99;
+        color: #fff;
+        padding: 1.2rem 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    nav {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    nav .logo {
+        font-size: 1.6rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    nav ul li {
+        font-weight: 600;
+    }
+    nav ul li a {
+        color: #fff;
+        font-weight: 600;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
